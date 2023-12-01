@@ -25,13 +25,13 @@ h1{
 }
 h2{
     font-weight: 800;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 p{
     font-weight: 400;
-    font-size: 1.8rem; 
+    font-size: 1.7rem; 
 }
-img{
+img{ 
     width: 100%;
     height: auto;
 }
@@ -151,50 +151,10 @@ button{
 .process .row{
     justify-content: center;
 }
-.process-content{
-    margin-top: 100px;
-}
-.process-content h2{
-    color: green;
-}
-.progress-bar{
-    width: 80%;
-    height: 5px;
-    background-color: #222;
-    margin: auto;
-    position: relative;
-}
-.progress-bar .c1,
-.progress-bar .c2,
-.progress-bar .c1{
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: #222;
-    position: absolute;
-}
-.progress-bar .cl{
-    top: -8px;
-    left: 50px;
-}
-.progress-bar .c2{
-    top: -8px;
-    left: 50px;
-}
-.progress-bar .c3{
-    top: -8px;
-    left: 50px;
-}
 .box1,
 .box2,
 .box3{
     padding: 1.8rem;
-}
-.process .box2{
-    text-align: center;
-}
-.process .box3{
-    text-align: center;
 }
 /* Testimony */
 .testimony{
@@ -244,23 +204,3 @@ footer{
     text-align: center;
     }
 
-@media (max-width:768px){
-    nav{
-        flex-direction: column;
-        position: relative;
-    }
-    #bar{
-        display: block;
-        position: absolute;
-        visibility: visible;
-        top: 18px;
-        right: 32px;
-    }
-nav ul{
-    background-color: whitesmoke;
-    display: none;
-}
-nav ul li{
-    padding: 2% 0%;
-}
-} 
